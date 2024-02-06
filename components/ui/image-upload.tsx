@@ -7,8 +7,6 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { ImagePlus, Trash } from "lucide-react";
 
-const uploadPreset: string = process.env.UPLOAD_PRESET_CLOUDINARY as string;
-
 interface ImageUploadProps {
   disabled?: boolean;
   onChange: (value: string) => void;
